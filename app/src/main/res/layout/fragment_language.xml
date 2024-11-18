@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language_title"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_language_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/switch_language"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_language"
+        android:textSize="16sp"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
+</LinearLayout>

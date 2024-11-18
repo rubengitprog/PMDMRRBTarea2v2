@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home_drawer"
+        android:title="@string/fragment_title1"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/navigation_profile_drawer"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/language_drawer"
+        android:title="@string/language"
+        android:icon="@drawable/language"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/exit_drawer"
+        android:title="@string/salir"
+
+        app:showAsAction="never"/>
+</menu>

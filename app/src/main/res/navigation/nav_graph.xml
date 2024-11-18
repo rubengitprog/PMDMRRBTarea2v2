@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/blankFragment"> <!-- El punto de inicio es BlankFragment -->
+
+    <!-- Fragmento de BlankFragment que es el primer fragmento de la navegación -->
+    <fragment
+        android:id="@+id/blankFragment"
+        android:name="com.example.pmdmrrbtarea2v2.StartFragment"
+        android:label="fragment_blank">
+        <action
+            android:id="@+id/action_blankFragment_to_charactersFragment"
+            app:destination="@id/charactersFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_blankFragment_to_languageFragment"
+            app:destination="@id/languageFragment" />
+    </fragment>
+
+    <!-- Fragmento CharactersFragment -->
+    <fragment
+        android:id="@+id/charactersFragment"
+        android:name="com.example.pmdmrrbtarea2v2.CharactersFragment"
+        android:label="fragment_characters">
+        <action
+            android:id="@+id/action_charactersFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+        <action
+            android:id="@+id/action_charactersFragment_to_languageFragment"
+            app:destination="@id/languageFragment" />
+        <action
+            android:id="@+id/action_charactersFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <!-- Fragmento DetailsFragment -->
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.pmdmrrbtarea2v2.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_detailsFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_detailsFragment_to_charactersFragment"
+            app:destination="@id/charactersFragment" />
+    </fragment>
+
+    <!-- Fragmento SettingsFragment -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.pmdmrrbtarea2v2.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <!-- Fragmento LanguageFragment -->
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.pmdmrrbtarea2v2.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageFragment_to_blankFragment"
+            app:destination="@id/blankFragment" />
+        <action
+            android:id="@+id/action_languageFragment_to_charactersFragment"
+            app:destination="@id/charactersFragment" />
+    </fragment>
+</navigation>

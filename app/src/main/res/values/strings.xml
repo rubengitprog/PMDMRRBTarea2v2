@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">PMDMTarea2RRBv2</string>
+    <string name="inciar">INCIAR</string>
+    <string name="idioma">IDIOMA</string>
+    <string name="salir">SALIR</string>
+    <string name="nombre">Nombre</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="descripcionMario"> El valiente fontanero que salva el Reino Champiñón de las fuerzas del mal, siempre acompañado de su hermano Luigi.</string>
+    <string name="descripcionPeach">La princesa del Reino Champiñón, famosa por su gentileza, sabiduría y capacidad para liderar en momentos de crisis.</string>
+    <string name="descripcionToad">Un leal y valiente habitante del Reino Champiñón, siempre dispuesto a ayudar a Mario y sus amigos en sus misiones.</string>
+    <string name="descripcionLuigi">El hermano de Mario, conocido por su valentía y su carácter un poco más tímido, pero siempre listo para la aventura.</string>
+    <string name="descripcionBowser">El principal antagonista de Mario, el rey de los Koopas, conocido por su fuerza y su deseo de conquistar el Reino Champiñón.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hola fragmento blanco</string>
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+    <string name="mario_wiki">MARIO WIKI</string>
+    <string name="bienvenido_a_mario_wiki">¡Bienvenido a Mario Wiki!</string>
+
+    <string name="about_title">Información de la aplicación</string>
+    <string name="about_info">Aplicación desarrollada por Rubén. Versión 1.0.</string>
+    <string name="no_title">Sin título</string>
+    <string name="no_description">"Sin descripción"</string>
+
+    <string name="click_in">Clic en:</string>
+    <string name="welcome">Bienvenidos al mundo de Mario</string>
+    <string name="no_ability">Sin habilidad</string>
+    <string name="mario_ability">Bola de fuego</string>
+    <string name="toad_ability">Giro champiñon</string>
+    <string name="peach_ability">Disparo real</string>
+    <string name="luigi_ability">Salto con patada</string>
+    <string name="bowser_ability">Coletazo</string>
+    <string name="t_tulo_del_personaje">Título del Personaje</string>
+    <string name="descripci_n_del_personaje">Descripción del Personaje</string>
+    <string name="habilidad">Habilidad:</string>
+    <string name="detalle_de_la_habilidad">Detalle de la Habilidad</string>
+    <string name="vida">Vida:</string>
+    <string name="valor_de_vida">Valor de Vida</string>
+    <string name="fragment_title1">INICIO</string>
+    <string name="fragment_title2">LISTA</string>
+    <string name="fragment_title3">DETALLES</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="settings">Ajustes</string>
+    <string name="language">Idioma</string>
+    <string name="perfil">Perfil</string>
+    <string name="personajes">Personajes</string>
+
+    <string name="ingl_s">Inglés</string>
+    <string name="espa_ol">Español</string>
+    <string name="switch_language">Cambiar idioma</string>
+    <string name="switch_options">Español --- Inglés</string>
+    <string name="language_title">AJUSTES</string>
+    <string name="language_change">¡Has cambiado el idioma a Español!</string>
+    <string name="fragment_title_Setting">AJUSTES</string>
+    <string name="fragment_language_title">CAMBIAR IDIOMA</string>
+
+</resources>

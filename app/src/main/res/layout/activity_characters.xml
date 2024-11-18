@@ -1,0 +1,56 @@
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharactersActivity"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+    <!-- Contenido principal -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Toolbar fija en la parte superior -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentTop="true"
+            android:background="#C23636"
+            android:textColor="@android:color/white" />
+
+        <!-- FragmentContainerView ajustado para ocupar solo el espacio restante -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@id/bottom_navigation_view"
+            android:layout_below="@id/toolbar"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/nav_graph" />
+
+        <!-- BottomNavigationView al fondo -->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/bottom_nav_menu" />
+    </RelativeLayout>
+
+    <!-- Menú lateral -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"
+        android:background="#FFFFFF"
+        app:headerLayout="@layout/navigation_header"
+       />
+</androidx.drawerlayout.widget.DrawerLayout>
