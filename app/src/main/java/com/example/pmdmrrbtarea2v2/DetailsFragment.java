@@ -29,6 +29,9 @@ public class DetailsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        if (getActivity() != null) {
+            Objects.requireNonNull(((AppCompatActivity) getActivity()).getSupportActionBar()).setTitle(getString(R.string.fragment_details));
+        }
         View view = inflater.inflate(R.layout.fragment_details, container, false);
         // Inflate the layout for this fragment
         // Obtener referencias a los elementos de la interfaz

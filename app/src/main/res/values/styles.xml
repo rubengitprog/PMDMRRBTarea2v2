@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Estilo general para la app -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+    </style>
+
+    <!-- Estilo para el texto principal -->
+    <style name="TextStylePrimary">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item> <!-- Fuente sans-serif para mayor legibilidad -->
+        <item name="android:lineSpacingExtra">4dp</item> <!-- Espaciado extra entre líneas para mayor claridad -->
+    </style>
+    <style name="RecyclerViewStyle">
+        <!-- Fondo con bordes redondeados -->
+        <item name="android:background">#FFF1E5</item> <!-- Fondo de color claro -->
+        <item name="android:layout_marginTop">16dp</item> <!-- Margen superior -->
+        <item name="android:layout_marginBottom">16dp</item> <!-- Margen inferior -->
+        <item name="android:layout_marginLeft">8dp</item> <!-- Margen izquierdo -->
+        <item name="android:layout_marginRight">8dp</item> <!-- Margen derecho -->
+    </style>
+    <style name="TextStyleTh">
+        <item name="android:textColor">@color/black</item>
+       <item name="android:textStyle">bold</item>
+
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item> <!-- Fuente sans-serif para mayor legibilidad -->
+        <item name="android:lineSpacingExtra">4dp</item> <!-- Espaciado extra entre líneas para mayor claridad -->
+    </style>
+
+
+    <!-- Estilo para el texto secundario -->
+    <style name="TextStyleSecondary">
+        <item name="android:textColor">@color/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+    </style>
+
+    <!-- Estilo para botones -->
+    <style name="ButtonStartStyle">
+        <item name="android:textColor">#FFFFFF</item> <!-- Color del texto en blanco -->
+        <item name="android:backgroundTint">#B13831</item> <!-- Color de fondo (Rojo oscuro, como en Mario) -->
+        <item name="android:textSize">18sp</item> <!-- Tamaño de texto -->
+        <item name="android:fontFamily">sans-serif-medium</item> <!-- Fuente mediana para mayor legibilidad -->
+        <item name="android:shadowRadius">10</item> <!-- Sombras en el texto -->
+        <item name="android:shadowDx">0</item> <!-- Desplazamiento horizontal de la sombra -->
+        <item name="android:shadowDy">4</item> <!-- Desplazamiento vertical de la sombra -->
+        <item name="android:paddingLeft">16dp</item> <!-- Relleno a la izquierda -->
+        <item name="android:paddingRight">16dp</item> <!-- Relleno a la derecha -->
+        <item name="android:paddingTop">12dp</item> <!-- Relleno superior -->
+        <item name="android:paddingBottom">12dp</item> <!-- Relleno inferior -->
+        <item name="android:layout_width">match_parent</item> <!-- Ancho del botón -->
+        <item name="android:layout_height">wrap_content</item> <!-- Alto del botón -->
+    </style>
+
+    <!-- Estilo para botones presionados -->
+    <style name="ButtonStylePressed">
+        <item name="android:textColor">@color/buttonTextColor</item>
+        <item name="android:background">@color/buttonPressedColor</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+</resources>

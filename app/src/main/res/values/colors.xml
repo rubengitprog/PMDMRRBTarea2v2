@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FF0000</color> <!-- Rojo Mario -->
+    <color name="colorSecondary">#FFD700</color> <!-- Amarillo (Monedas) -->
+    <color name="colorAccent">#1E90FF</color> <!-- Azul (Cielo) -->
+    <color name="textColorPrimary">#FFFFFF</color> <!-- Blanco (para texto principal) -->
+    <color name="textColorSecondary">#000000</color> <!-- Negro (para texto secundario) -->
+    <color name="buttonTextColor">#FFFFFF</color> <!-- Blanco para texto de botones -->
+    <color name="buttonBackgroundColor">#FF4500</color> <!-- Naranja para el fondo de los botones -->
+    <color name="buttonPressedColor">#FF6347</color> <!-- Rojo más claro cuando se presiona el botón -->
+    <color name="colorPrimaryDark">#B13831</color> <!-- Ejemplo de color rojo -->
 </resources>

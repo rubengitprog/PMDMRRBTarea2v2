@@ -53,5 +53,6 @@
     <string name="language_change">¡Has cambiado el idioma a Español!</string>
     <string name="fragment_title_Setting">AJUSTES</string>
     <string name="fragment_language_title">CAMBIAR IDIOMA</string>
+    <string name="fragment_details">DETALLES</string>
 
 </resources>

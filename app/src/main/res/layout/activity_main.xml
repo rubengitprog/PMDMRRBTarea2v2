@@ -16,13 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/inciar"
-        android:backgroundTint="#B13831"
-        android:shadowRadius="10"/>
+
+        android:shadowRadius="10"
+        style="@style/ButtonStartStyle"
+        />
 
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/salir"
-        android:backgroundTint="#B13831"/>
+        style="@style/ButtonStartStyle"/>
 </LinearLayout>

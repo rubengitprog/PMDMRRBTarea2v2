@@ -13,14 +13,16 @@
         android:text="@string/language_title"
         android:textSize="18sp"
         android:layout_marginBottom="8dp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        style="@style/TextStylePrimary"/>
     <TextView
         android:id="@+id/tv_language_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/language"
         android:textSize="18sp"
-        android:layout_marginBottom="8dp" />
+        android:layout_marginBottom="8dp"
+        style="@style/TextStylePrimary"/>
 
     <Switch
         android:id="@+id/switch_language"

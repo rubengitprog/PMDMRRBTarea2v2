@@ -78,8 +78,6 @@ public class CharactersActivity extends AppCompatActivity {
             if (id == R.id.navigation_home_drawer) {
                 navController.navigate(R.id.blankFragment);
             } else if (id == R.id.navigation_profile_drawer) {
-                navController.navigate(R.id.settingsFragment);
-            } else if (id == R.id.language_drawer) {
                 navController.navigate(R.id.languageFragment);
             } else if (id == R.id.exit_drawer) {
                 finish();

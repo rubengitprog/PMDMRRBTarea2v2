@@ -50,4 +50,5 @@
     <string name="language_change">You have changed the language to English!</string>
     <string name="fragment_title_Setting">SETTINGS</string>
     <string name="fragment_language_title">CHANGE LANGUAGE</string>
+    <string name="fragment_details">DETAILS</string>
 </resources>
